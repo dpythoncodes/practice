@@ -13,6 +13,7 @@ class ClassProficiencies(object):
         self.saving_throws = []
         self.skills = []
 
+
 class BaseClass(object):
 
     def __init__(self):
@@ -49,7 +50,6 @@ class RangerClass(BaseClass):
     def __init(self):
         super(BaseClass, self).__init__()
         self.hit_die = 10
-        
 
         self.set_proficiencies(
             armor=["light armor", "medium armor", "shields"],
@@ -66,7 +66,3 @@ class RangerClass(BaseClass):
                 "Survival"
             ])
         )
-
-
-
-
